@@ -1,2 +1,4 @@
-# plant-shop-for_practicing
-Plant Shop - Online Shop Web Site
+![alt text](img/poster.png)
+## Plant Shop - Web Site as an Online Shop 
+
+###
