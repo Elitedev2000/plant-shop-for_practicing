@@ -46,11 +46,13 @@ nav .navbar .logo a {
     align-items: center;
 }
 
-/* nav .navbar .logo a i {
+nav .navbar .logo a .fa-solid {
     font-size: 40px;
     padding: 0 5px 0 0;
-    background: linear-gradient(to right, #2AF598, #009EFD);
-} */
+    /* background: linear-gradient(to right, #2AF598, #009EFD); */
+    color: linear-gradient(to right, #2AF598, #009EFD);
+    color: #2AF598;
+}
 
 nav .navbar .logo a h3 {
     color: #fff;
