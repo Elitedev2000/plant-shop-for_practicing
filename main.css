@@ -35,7 +35,7 @@ header .head {
 }
 
 header .head nav {
-  width: 80%;
+  width: 85%;
   height: 150px;
   margin: 0 auto;
 }
@@ -89,15 +89,36 @@ header .head nav .navbar .menu ul li {
 header .head nav .navbar .menu ul a:nth-child(1),
 header .head nav .navbar .menu ul a li:hover {
   background-image: linear-gradient(to right, #2af598, #009efd);
-  background-size: 100%;
-  background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
 }
 
 header .head nav .navbar .menu ul a:nth-child(1) {
   font-weight: 600;
 }
 
+header .head nav .navbar .bag {
+  position: relative;
+}
+
+header .head nav .navbar .bag i {
+  font-size: 36px;
+  color: #fff!important ;
+}
+
+header .head nav .navbar .bag .number {
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  position: absolute;
+  left: 17px;
+  bottom: 11px;
+  background-color: #009efd;
+  display: flex;
+  justify-content: center;
+}
+
+header .head nav .navbar .bag .number h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
