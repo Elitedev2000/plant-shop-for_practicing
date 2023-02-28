@@ -38,12 +38,11 @@ header .head {
 
 header .head nav {
   width: 85%;
-  height: 150px;
   margin: 0 auto;
 }
 
 header .head nav .navbar {
-  padding: 57px 0 0;
+  padding: 40px 0 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -126,12 +125,13 @@ header .head nav .navbar .bag .number h4 {
 }
 
 header .head .motto  {
-  width: 85%;
+  width: 75%;
   margin: 77px auto 0;
 }
 
 header .head .motto h1 {
-  font-size: 82px;
+  font-size: 75px;
   font-weight: 700;
   color: #fff;
+  text-align: center;
 }
