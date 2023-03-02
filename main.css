@@ -139,17 +139,19 @@ header .head .motto h1 {
   text-align: center;
 }
 
-/* Header Down Part */
+/* --- Header Down Part --- */
 
-header .head .downPart {
+.downPart {
   width: 85%;
-  height: 140px;
+  height: 100%;
   margin: 25px auto 0;
   display: flex;
   justify-content: space-between;
 }
 
-header .head .downPart .price {
+.downPart .firstColumn {
+  width: auto;
+  height: auto;
   position: relative;
 }
 
@@ -173,14 +175,23 @@ header .head .downPart .price {
   border-radius: 50%;
 }
 
-header .head .downPart .price .first {
-  top: 30%;
+.downPart .firstColumn .price .first {
+  top: 2.5rem;
   left: -1.6rem;
 }
 
+.downPart .firstColumn .second {
+  top: 14rem;
+  left: 3.5rem;
+}
+
+/* .downPart .thirdColumn .third {
+  top: 5rem;
+} */
 
 
-/* .speech-bubble {
+
+.speech-bubble {
 	position: relative;
 	background: #00aabb;
 	border-radius: .4em;
@@ -198,4 +209,4 @@ header .head .downPart .price .first {
 	border-bottom: 0;
 	margin-left: -32px;
 	margin-bottom: -32px;
-} */
+}
