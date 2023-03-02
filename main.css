@@ -36,6 +36,8 @@ header .head {
   position: relative;
 }
 
+/* --- Header Nav Part --- */
+
 header .head nav {
   width: 85%;
   margin: 0 auto;
@@ -103,7 +105,7 @@ header .head nav .navbar .bag {
 
 header .head nav .navbar .bag i {
   font-size: 36px;
-  color: #fff!important ;
+  color: #fff !important ;
 }
 
 header .head nav .navbar .bag .number {
@@ -123,7 +125,9 @@ header .head nav .navbar .bag .number h4 {
   font-weight: 700;
 }
 
-header .head .motto  {
+/* --- Header Motto Part --- */
+
+header .head .motto {
   width: 75%;
   margin: 77px auto 0;
 }
@@ -135,18 +139,63 @@ header .head .motto h1 {
   text-align: center;
 }
 
+/* Header Down Part */
+
 header .head .downPart {
+  width: 85%;
+  height: 140px;
+  margin: 25px auto 0;
   display: flex;
+  justify-content: space-between;
 }
 
-header .head .downPart .priceOne {
-  display: flex;
+header .head .downPart .price {
+  position: relative;
 }
 
-header .head .downPart .priceOne .firstCircle {
-  width: 54px;
-  height: 54px;
-  border: #2af598;
+.circle {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(2px);
+}
+
+.circle .dot {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
   border-radius: 50%;
 }
 
+header .head .downPart .price .first {
+  top: 30%;
+  left: -1.6rem;
+}
+
+
+
+/* .speech-bubble {
+	position: relative;
+	background: #00aabb;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 32px solid transparent;
+	border-top-color: #00aabb;
+	border-bottom: 0;
+	margin-left: -32px;
+	margin-bottom: -32px;
+} */
