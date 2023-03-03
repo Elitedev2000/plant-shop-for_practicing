@@ -150,9 +150,41 @@ header .head .motto h1 {
 }
 
 .downPart .firstColumn {
-  width: auto;
-  height: auto;
   position: relative;
+}
+
+.bubble {
+	width: 205px;
+	height: 105px;
+	min-width: 200px;
+	background: ivory;
+	display: block;
+	margin: 0 auto;
+	border-radius: 20px;
+	margin-top: 50px;
+	font-size: 200px;
+	text-align: center;
+}
+
+.pointer {
+	height: 30px;
+	width: 30px;
+	background: ivory;
+	margin: 0 auto;
+	transform: rotate(45deg);
+	border-radius: 4px;
+	margin-top: -22px;
+	position: relative;
+	left: center;
+}
+
+.blurred {
+	background: gray;
+	filter: blur(20px);
+	position: relative;
+	top: -315px;
+/* 	transform: scale(1.05); */
+	z-index: -1;
 }
 
 .circle {
@@ -190,23 +222,3 @@ header .head .motto h1 {
 } */
 
 
-
-.speech-bubble {
-	position: relative;
-	background: #00aabb;
-	border-radius: .4em;
-}
-
-.speech-bubble:after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	width: 0;
-	height: 0;
-	border: 32px solid transparent;
-	border-top-color: #00aabb;
-	border-bottom: 0;
-	margin-left: -32px;
-	margin-bottom: -32px;
-}
