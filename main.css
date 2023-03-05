@@ -154,31 +154,26 @@ header .head .motto h1 {
 }
 
 .bubble {
-  display: inline-block;
   width: 205px;
   height: 105px;
-  display: block;
+  position: relative;
+	background: rgba(255, 255, 255, 0.2);
   border: 1px solid #fff;
-  border-radius: 24px;
-  background: rgba(255, 255, 255, 0.2);
+	border-radius: 24px;
   backdrop-filter: blur(5px);
-  /* z-index: 1; */
 }
 
-.pointer {
-  height: 30px;
-  width: 30px;
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(5px);
-  margin: 0 auto;
-  transform: rotate(45deg);
-  border: 1px solid #fff;
-  border-left: none;
-  border-top: none;
-  border-radius: 4px;
-  margin-top: -20px;
-  left: center;
-  z-index: -1;
+.bubble:after {
+  content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+  border: 18px solid transparent;
+	border-top-color: rgba(255, 255, 255, 0.2);
+	border-bottom: 0;
+	margin-left: -20px;
+	margin-bottom: -18px;
+  
 }
 
 .circle {
