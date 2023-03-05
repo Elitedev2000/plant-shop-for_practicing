@@ -153,6 +153,10 @@ header .head .motto h1 {
   position: relative;
 }
 
+.downPart .price {
+  position: relative;
+}
+
 .bubble {
   width: 205px;
   height: 105px;
@@ -161,6 +165,11 @@ header .head .motto h1 {
   border: 1px solid #fff;
 	border-radius: 24px;
   backdrop-filter: blur(5px);
+  padding: 20px;
+  position: absolute;
+  top: -90px;
+  left: -102px;
+  margin-bottom: 9px;
 }
 
 .bubble:after {
@@ -173,7 +182,21 @@ header .head .motto h1 {
 	border-bottom: 0;
 	margin-left: -20px;
 	margin-bottom: -18px;
-  
+}
+
+.bubble h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37px;
+  color: #fff;
+}
+
+.bubble h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #fff;
+  padding-top: 12px;
 }
 
 .circle {
@@ -187,6 +210,7 @@ header .head .motto h1 {
   align-items: center;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(2px);
+  cursor: pointer;
 }
 
 .circle .dot {
@@ -194,6 +218,10 @@ header .head .motto h1 {
   height: 15px;
   background-color: #fff;
   border-radius: 50%;
+}
+
+.circle:hover .bubble {
+  display: block;
 }
 
 .downPart .firstColumn .price .first {
